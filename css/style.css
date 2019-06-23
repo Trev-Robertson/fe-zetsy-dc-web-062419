@@ -5,8 +5,13 @@
 /*////////// Global Styles //////////*/
 
 body {
+<<<<<<< HEAD
 	background: #F3EBE9;
 	font-size: 1em;
+=======
+	background: ;#F3EBE9
+	font-size: 100%;
+>>>>>>> b489e159a242c8b3969dd727f95c64317a85a537
 	font-family: 'Times New Roman', serif; 
 	color: #555
 }
