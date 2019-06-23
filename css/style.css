@@ -6,15 +6,98 @@
 
 body {
 	background: #F3EBE9;
-	font-size: 100%;
+	font-size: 1em;
 	font-family: 'Times New Roman', serif; 
+	color: #555
 }
 
 .wrapper {
-	width: 960px;
+	width: 960px; /*960px is default*/
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
 }
 
 /* Write all remaining styles here */
+
+#website-title{
+	color: rgb(147,174,166);
+	font-size: 80px;
+	font-family: Baskerville;
+	font-weight: bold;
+	/* border-bottom-style: solid;
+	border-bottom-width: 3px; */
+
+}
+
+#website-title a{
+	color: rgb(147,174,166);
+	text-decoration: none;
+}
+
+#website-title a:hover{
+	color: rgb(111,127,122);
+	font-weight: bold; 
+	
+}
+
+.image-holder{
+	position: relative;
+	padding-top: 5px;
+	border-top: 1px solid rgb(202,202,202);
+	margin-top: 10px;
+	/* background: rgb(147,174,166); */
+}
+
+.image-holder img {
+	/* width: auto; */
+	border: 5px solid rgb(147,174,166);
+	/* margin: 0 auto; */
+}
+
+#about, #press {
+	margin: 0 0 20px 0;
+}
+
+.section-header {
+font-size: 32px;
+color: rgb(107,128,122);
+font-weight: bold;
+margin: 26.56px 0;
+}
+
+#learn-more{
+  color: rgb(0,129,193);
+  text-decoration: none;
+}
+
+#learn-more:hover{
+	text-decoration: underline
+}
+
+
+
+.links a img{
+	width: auto;
+	height: auto;
+	border: 5px solid rgb(199,199,199);	
+	padding: 1px;
+}
+
+
+.links a:hover img{
+  color: rgb(107,128,122);
+  border: 5px solid rgb(118, 128, 107);
+}
+
+
+
+.bottom {
+	text-align: right;
+	font-size: .8em;
+		margin: 0 0 20px 0
+}
+
+p{
+	    margin: 0 0 20px 0
+}
